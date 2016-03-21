@@ -104,6 +104,6 @@ def populous_continents
   GROUP BY
     continent
   HAVING
-    SUM(population) > 100000000
+    SUM(population) > 100000000g
   SQL
 end
